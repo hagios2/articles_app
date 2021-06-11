@@ -25,7 +25,7 @@ class Product
     /**
      * @ORM\Column(type="integer")
      */
-    private $quantiy;
+    private $quantity;
 
     /**
      * @ORM\Column(type="float")
@@ -54,14 +54,14 @@ class Product
         return $this;
     }
 
-    public function getQuantiy(): ?int
+    public function getQuantity(): ?int
     {
-        return $this->quantiy;
+        return $this->quantity;
     }
 
-    public function setQuantiy(int $quantiy): self
+    public function setQuantity(int $quantity): self
     {
-        $this->quantiy = $quantiy;
+        $this->quantiy = $quantity;
 
         return $this;
     }

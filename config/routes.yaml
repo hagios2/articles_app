@@ -1,3 +1,23 @@
 #article_index:
 #    path: article/index
 #    controller: App\Controller\ArticleController::index
+
+order_index:
+  path: api/order/index
+  controller: App\Controller\OrderController::index
+  methods: [GET]
+
+order_create:
+  path: api/order/create
+  controller: App\Controller\OrderController::create
+  methods: [POST]
+
+customer_index:
+  path: api/customer/index
+  controller: App\Controller\CustomerController::index
+  methods: [GET]
+
+customer_create:
+  path: api/customer/create
+  controller: App\Controller\CustomerController::create
+  methods: [POST]
